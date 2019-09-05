@@ -1,0 +1,84 @@
+.orderItem{
+    margin: 10px;
+    display:flex;
+    justify-content: flex-start;
+}
+.orderItem_img{
+    width: 120px;
+    height: 100px;
+    border: 2px green;
+}
+
+.orderItem_content{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.orderItem_product{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 6px;
+    display:flex;
+    justify-content: flex-start;
+}
+.orderItem_shop{
+    margin-top: 6px;
+    height: 30%;
+    display:flex;
+    font-size: 16px;
+    color: #636263;
+    justify-content: flex-start;
+}
+
+.orderItem_detail{
+    display: flex;
+    justify-content:space-between;
+}
+.orderItem_btn{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80px;
+    
+}
+.orderItem_btn_red{
+    background-color: red;
+}
+.orderItem_btn_grey{
+    background-color: grey;
+}
+
+.orderItem_comment_container{
+    margin: 10px;
+    display: flex;
+    width:380px;
+    flex-direction: column;
+}
+.orderItem_comment_editor{
+    height: 60px;;
+}
+.orderItem_submit_div{
+    margin-top: 4px;
+    display: flex;
+}
+#orderItem_submit{
+    width:70px;
+}
+#orderItem_cancel{
+    margin-left: 10px;
+    width: 70px;
+}
+.orderItem_stars{
+    display: flex;
+    justify-content: flex-start;
+}
+.orderItem_star_red{
+    color: red;
+}
+.orderItem_star_grey{
+    color: grey;
+}
